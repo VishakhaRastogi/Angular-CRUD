@@ -9,7 +9,7 @@ import { tap } from 'rxjs/operators';
 })
 export class ApiService {
 
-  PHP_API_SERVER = "http://127.0.0.1:8080";
+  PHP_API_SERVER = "https://php-api-serve.herokuapp.com";
 
   constructor(private httpClient: HttpClient) {}
 
